@@ -8,7 +8,11 @@ export default function Home() {
       sm:pb-32-x-0 
       xl:gap-x-8 xl:pt-32">
         <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
-          <div></div>
+          <div className="relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start">
+            <div className="absolute w-28 left-0 -top-20 hidden lg:block">
+              <img src="/casecobra/public/snake-1.png" className="w-full" alt="" />
+            </div>
+          </div>
         </div>
       </MaxWidthWrapper>
     </div>
